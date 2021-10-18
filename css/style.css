@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Rampart+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  /* border : 3px solid #FF6263; */
+  width: 100vw;
+  height: 100vh;
+  /* background-color: #1f1f1f; */
+  background-image: url("https://images.unsplash.com/photo-1562155618-e1a8bc2eb04f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=891&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.main {
+  padding: 2rem;
+  border: 3px solid #cad5e2a4;
+  border-radius: 10px;
+  box-shadow: 5px 5px 15px 0px #e9ebee;
+}
+h1 {
+  font-size: 2.5em;
+  font-family: "Rampart One", cursive;
+  margin: 5px;
+  padding: 5px;
+  /* border: 2px solid black; */
+}
+span {
+  font-family: "Montserrat", sans-serif;
+  font-size: 150%;
+}
+
+@media (max-width: 650px) {
+  h1 {
+    font-size: 180%;
+  }
+  span {
+    font-size: 150%;
+  }
+}
+@media (max-width: 505px) {
+  h1 {
+    font-size: 155%;
+  }
+  span {
+    font-size: 100%;
+  }
+}
+@media (max-width: 380px) {
+  h1 {
+    font-size: 130%;
+  }
+  span {
+    font-size: 80%;
+  }
+}
